@@ -3,7 +3,6 @@
 <br />
 <div align="center">
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/abammidi/datascience_projects/blob/main/images/image3.jpg">
 </p>
 
 
@@ -74,7 +73,5 @@ $$Final Score = (w_1 \cdot Pop) + (w_2 \cdot Content) + (w_3 \cdot Collaborative
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Anil Bammidi linkedin](https://www.linkedin.com/in/anil-bammidi-43938357/) - anil.bammidi@yahoo.com
 
-Profile Link: [Anil Bammidi_ProjectProfile](https://abammidi.github.io/anilbammidi.github.io/)
 
