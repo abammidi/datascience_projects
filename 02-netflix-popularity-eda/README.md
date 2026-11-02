@@ -1,67 +1,46 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-<p align="center">
-</p>
+# Netflix Titles: Exploratory Data Analysis and Modeling
 
+## Overview
 
-  <h1 align="center">EDA - Netflix Popularity Analysis</h1>
-  <p align="center">
-    
-Netflix Popularity Analyis between 2006 to 2018
-  </p>
-</div>
+This project analyzes the Netflix Titles dataset from Kaggle, which lists movies and TV shows available on Netflix. The notebook runs an exploratory analysis, a chi-square test, a logistic regression, a random forest with cross-validation, and a KMeans clustering with PCA visualization.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Questions
 
-Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device. You can also download TV shows and movies to your iOS, Android, or Windows 10 device and watch
-without an internet connection.This is an EDA or a story telling through its data along with awide range of diﬀerent graphs and visuals to explore various aspect of popularity across different scenarios.
+- How are release years, durations, and genre counts distributed?
+- Is show type (movie or TV show) independent of content rating?
+- How well can show type be predicted from numeric metadata?
+- Do titles form natural groups when clustered on numeric features?
 
+## Data
 
-### Built With
-* Python Programming using Jupiter Notebook
-* pandas
-* seaborn module
-* matplotlib
+The notebook loads `netflix_titles.csv` from the Kaggle Netflix Titles dataset. The file is not included in this repository. Place it in the same folder as the notebook before running it.
 
-### Summary 
+## Methods
 
-__Analysis of Movies vs TV Shows:__ The growth in number of movies on netflix is much higher than that of TV shows.
+- Cleaning: parse movie duration in minutes, estimate TV show length from seasons, parse the date added, and count genres per title.
+- Descriptive statistics: mean, median, mode, variance, skewness, and kurtosis for release year and year added.
+- Hypothesis test: chi-square test of show type against content rating.
+- Classification: logistic regression and random forest (200 trees, 5-fold cross-validation) to predict movie versus TV show.
+- Clustering: KMeans with three clusters on standardized numeric features, projected to two dimensions with PCA.
 
-<p align="center">
-</p>
+## Results
 
-__Movie Ratings Analysis:__ Here we discover that UR and NR is the same rating(unrated,Not rated Uncut/extended versions of films that are labeled "Unrated" also contain warnings saying that the uncut version of the film contains content that diﬀers from the theatrical release and might not be suitable for minors.
+- Release years are strongly left-skewed (skewness about -3.4), with a median of 2017.
+- Chi-square test of show type against rating: statistic 1047.7 with 16 degrees of freedom, p-value about 6.8e-213. Type and rating are not independent.
+- Logistic regression: accuracy 0.78 on a 30% test split. It recalls 99% of movies but only 31% of TV shows.
+- Random forest: mean 5-fold cross-validated accuracy 0.94.
 
-The largest count of movies are made with the 'TV-MA' rating."TV-MA" is a rating assigned by the TV Parental Guidelines to a television program that was designed for mature audiences only.
+## Limitations
 
-Second largest is the 'TV-14' stands for content that may be inappropriate for children rating younger than 14 years of age.
+The classification features include `duration_minutes_imputed`, which is built from the show type: movies keep their minutes, and TV shows are assigned seasons × 45. The classifiers therefore partly learn the label from a feature derived from it. The accuracy figures above overstate how well show type can be predicted from metadata that is independent of type. A fair test would exclude that feature or use only features available without the type.
 
-Third largest is the very popular 'R' rating.An R-rated film is a film that has been assessed as
-having material which may be unsuitable for children under the age of 17 by the Motion
-Picture Association of America.
+## Built With
 
-<p align="center">
-</p>
+- Python, Jupyter Notebook
+- pandas, NumPy
+- seaborn, matplotlib
+- scikit-learn, SciPy
 
-__Released Year Wise Analysis :__   2018 was the year when most of the movies were released
-
-<p align="center">
-</p>
-
-__Countries with highest rated content count Analysis:__   United States have highest rated content on the netflix
-
-<p align="center">
-</p>
-
-### Conclusion
-As we noted through this notebook; Netflix is very popular among various social classes,and as we all know it has increased in popularity during the Covid-19 pandemic.
-
-Netflix is continuedly adding new content on their platform. We can see exponential growth in new content after 2016.
-Most of the content added on Netflix in 2018 and 2019 are released in same year.There are many diﬀerent genre available on Netflix to attract wide range of subscribers.
-
-<!-- CONTACT -->
 ## Contact
 
 Anil Bammidi
