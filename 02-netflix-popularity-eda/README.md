@@ -13,7 +13,7 @@ This project analyzes the Netflix Titles dataset from Kaggle, which lists movies
 
 ## Data
 
-The notebook loads `netflix_titles.csv` from the Kaggle Netflix Titles dataset. The file is not included in this repository. Place it in the same folder as the notebook before running it.
+The notebook loads `netflix_titles.csv` (8,807 titles) from the Kaggle Netflix Titles dataset. The file sits in this folder next to the notebook, so the notebook runs as written. Check the Kaggle dataset page for its license before reusing the data.
 
 ## Methods
 
