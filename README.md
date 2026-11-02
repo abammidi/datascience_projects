@@ -4,7 +4,7 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 
 | # | Project | Status |
 |---|---------|--------|
-| 01 | [Hybrid Music Recommendation System](01-hybrid-music-recommendation-system/README.md) | In progress |
+| 01 | [Spotify Music Recommendation System: Popularity and Content-Based KNN](01-spotify-music-recommendation-system/README.md) | Completed |
 | 02 | [Netflix Popularity EDA](02-netflix-popularity-eda/README.md) | Draft |
 | 03 | [Labor Force Suitability - Predictive Analysis](03-labor-force-suitability-predictive-analysis/README.md) | TBD |
 | 04 | [Obesity Risk Prediction System](04-obesity-risk-prediction/README.md) | TBD |
@@ -12,7 +12,7 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 06 | [Diet Recommendation System](06-diet-recommendation-system/README.md) | In progress |
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | In progress |
 | 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
-| 09 | [Spotify Music Recommendation System: Popularity and Content-Based KNN](09-spotify-music-recommendation-system/README.md) | Completed |
+| 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
 
 See [AUDIT.md](AUDIT.md) for the repository audit log.
