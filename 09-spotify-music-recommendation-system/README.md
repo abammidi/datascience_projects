@@ -22,7 +22,7 @@ The Spotify Tracks dataset from Kaggle (`Spotify_dataset.csv`, about 114,000 row
 
 ## Results
 
-- Popularity is long-tailed. The top-ranked tracks include "Unholy (feat. Kim Petras)" (popularity 100) and "Me Porto Bonito" (97).
+- Popularity has a large spike at zero (about 11,000 tracks), a second peak around 20 and 40, and a tail above 60. The top-ranked tracks include "Unholy (feat. Kim Petras)" (popularity 100) and "Me Porto Bonito" (97).
 - Energy and loudness correlate at about 0.76, so energetic tracks are usually loud.
 - For the query "Comedy," KNN returned tracks spanning several genre labels. This shows the model follows audio similarity rather than genre labels. It has no listener relevance labels to score it against.
 
