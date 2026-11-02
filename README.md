@@ -12,7 +12,7 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 06 | [Diet Recommendation System](06-diet-recommendation-system/README.md) | In progress |
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | In progress |
 | 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
-| 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
+| 09 | [Spotify Music Recommendation System: Popularity and Content-Based KNN](09-spotify-music-recommendation-system/README.md) | Completed |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
 
 See [AUDIT.md](AUDIT.md) for the repository audit log.
