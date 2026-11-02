@@ -43,6 +43,7 @@ The Spotify Tracks dataset from Kaggle (`Spotify_dataset.csv`, about 114,000 row
 ## Files
 
 - `music_recommendation_popularity_knn.ipynb`: the executed notebook. It reads `Spotify_dataset.csv` from this folder.
+- `Spotify_dataset.csv`: the track metadata used by the notebook.
 - `white_paper.docx`: the final white paper.
 - `presentation.pptx`: the final presentation.
 
