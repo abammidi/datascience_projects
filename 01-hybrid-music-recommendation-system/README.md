@@ -68,10 +68,10 @@ In a production environment, we apply a Weighted Hybrid Score:
 
 $$Final Score = (w_1 \cdot Pop) + (w_2 \cdot Content) + (w_3 \cdot Collaborative)$$
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-
-
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi
