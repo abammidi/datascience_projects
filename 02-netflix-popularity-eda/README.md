@@ -61,9 +61,10 @@ As we noted through this notebook; Netflix is very popular among various social 
 Netflix is continuedly adding new content on their platform. We can see exponential growth in new content after 2016.
 Most of the content added on Netflix in 2018 and 2019 are released in same year.There are many diﬀerent genre available on Netflix to attract wide range of subscribers.
 
-
 <!-- CONTACT -->
 ## Contact
 
-
-
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi
