@@ -3,7 +3,6 @@
 <br />
 <div align="center">
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image3.jpg">
 </p>
 
 
@@ -74,7 +73,5 @@ $$Final Score = (w_1 \cdot Pop) + (w_2 \cdot Content) + (w_3 \cdot Collaborative
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Vivek Giri linkedin](https://www.linkedin.com/in/vivekgiri01/) - girivivek01@gmail.com
 
-Profile Link: [Vivek Giri_ProjectProfile](https://vivekgriri.github.io/VivekGiri_portfolio/)
 

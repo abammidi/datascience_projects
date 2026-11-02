@@ -2,7 +2,6 @@
 <br />
 <div align="center">
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image7.jpg">
 </p>
 
 
@@ -31,7 +30,6 @@ without an internet connection.This is an EDA or a story telling through its dat
 __Analysis of Movies vs TV Shows:__ The growth in number of movies on netflix is much higher than that of TV shows.
 
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image8.jpg">
 </p>
 
 __Movie Ratings Analysis:__ Here we discover that UR and NR is the same rating(unrated,Not rated Uncut/extended versions of films that are labeled "Unrated" also contain warnings saying that the uncut version of the film contains content that diﬀers from the theatrical release and might not be suitable for minors.
@@ -45,19 +43,16 @@ having material which may be unsuitable for children under the age of 17 by the 
 Picture Association of America.
 
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image9.jpg">
 </p>
 
 __Released Year Wise Analysis :__   2018 was the year when most of the movies were released
 
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image10.jpg">
 </p>
 
 __Countries with highest rated content count Analysis:__   United States have highest rated content on the netflix
 
 <p align="center">
-  <img width="460" height="auto" src="https://github.com/vivekgriri/Datascience_projects/blob/main/images/image11.jpg">
 </p>
 
 ### Conclusion
@@ -70,7 +65,5 @@ Most of the content added on Netflix in 2018 and 2019 are released in same year.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Vivek Giri linkedin](https://www.linkedin.com/in/vivekgiri01/) - girivivek01@gmail.com
 
-Profile Link: [Vivek Giri_ProjectProfile](https://vivekgriri.github.io/VivekGiri_portfolio/)
 
