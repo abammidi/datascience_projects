@@ -10,13 +10,14 @@ Audit of this repository for the Milestone 1 revision.
 - README files were misspelled `READEME.md`. They were renamed to `README.md`.
 - Folder names had tab characters, trailing spaces, and inconsistent numbering. They were renamed to numbered, lowercase, hyphenated names.
 - Two placeholder folders were added for projects from the applied course. Their names no longer include course codes.
+- Project 01 was rewritten with the Spotify music recommendation project. The earlier hybrid README is in the git history.
 - The Hybrid Music and Netflix READMEs contained links and images from another account. Those lines were removed.
 
 ## Changes
 
 | Original folder | New folder |
 |---|---|
-| `1.\tHybrid Music Recommendation System` | `01-hybrid-music-recommendation-system` |
+| `1.\tHybrid Music Recommendation System` | `01-spotify-music-recommendation-system` (renamed from `01-hybrid-music-recommendation-system`; the hybrid README was replaced with the Spotify project) |
 | `EDA - Netflix popularity` | `02-netflix-popularity-eda` |
 | `3.\tLabor Force Suitability - Predictive Analysis ` | `03-labor-force-suitability-predictive-analysis` |
 | `Obesity Risk Prediction System` | `04-obesity-risk-prediction` |
