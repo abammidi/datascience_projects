@@ -14,5 +14,6 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
 | 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
+| 11 | [Website Data Cleaning: Government of Canada Prompt Payment Data](11-website-data-cleaning-prompt-payment/README.md) | Completed (run notebook to regenerate outputs) |
 
 See [AUDIT.md](AUDIT.md) for the repository audit log.
