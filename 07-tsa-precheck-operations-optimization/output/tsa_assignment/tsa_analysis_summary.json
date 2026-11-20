@@ -1,0 +1,41 @@
+{
+  "date_range": [
+    "2015-01",
+    "2024-01"
+  ],
+  "total_complaints": 1021281,
+  "airport_specific": 583495,
+  "airport_specific_share": 0.5713363902784836,
+  "not_tied_to_airport": 437786,
+  "not_tied_share": 0.4286636097215164,
+  "peak_month": "2022-03",
+  "peak_month_count": 16181,
+  "top_airports": {
+    "LAX": 24794,
+    "JFK": 24677,
+    "EWR": 24405,
+    "ATL": 23591,
+    "MCO": 22308,
+    "DEN": 19015,
+    "ORD": 18256,
+    "DFW": 15954,
+    "LAS": 15937,
+    "MIA": 14907
+  },
+  "iata_mapped_airport_complaints": 582364,
+  "coded_airport_complaints": 583495,
+  "iata_mapping_coverage": 0.9980616800486722,
+  "source_reconciliation": {
+    "airport_file": 1021281,
+    "category_file": 1021281,
+    "subcategory_file": 1021281
+  },
+  "cleaning_notes": [
+    "No complaint counts were imputed or deleted.",
+    "Missing airport codes were labeled 'Not tied to an airport' rather than assigned to a location.",
+    "The supplied clean_cat and clean_subcat fields were used for grouping.",
+    "Subcategory visual excludes only the unspecified clean_subcat='*' rows from its ranking.",
+    "January 2024 is retained in totals and trends but excluded from annual-share heatmap as a partial year.",
+    "Airport counts were joined to the supplied IATA/ICAO lookup by exact IATA code."
+  ]
+}
