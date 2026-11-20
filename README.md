@@ -10,7 +10,7 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 04 | [Obesity Risk Prediction System](04-obesity-risk-prediction/README.md) | TBD |
 | 05 | [US Child Care Affordability Crisis Analysis](05-us-child-care-affordability-analysis/README.md) | Completed (known limitations listed) |
 | 06 | [Diet Recommendation System](06-diet-recommendation-system/README.md) | In progress |
-| 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | In progress |
+| 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | Completed (known issues listed) |
 | 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
 | 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
