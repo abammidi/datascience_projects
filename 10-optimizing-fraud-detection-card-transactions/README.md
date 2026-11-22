@@ -1,46 +1,47 @@
 # Optimizing Fraud Detection in Card Transactions
 
-Status: Completed (DSC 680 Milestone 3). The notebook has saved outputs from the original run. Known issues are listed below and should be fixed before the notebook is presented as final.
+Status: Completed (DSC 680 Milestone 3). The notebook has saved outputs from its run. Known issues are listed below.
 
 ## Overview
 
-This project builds a classifier that flags fraudulent credit card transactions in a dataset of 284,807 European cardholder transactions, of which only 492 (0.17%) are fraud. The main challenge is extreme class imbalance: a model that predicts "not fraud" for every transaction would be 99.8% accurate and catch no fraud.
+This project asks two questions about card fraud detection in a dataset of 284,807 European card transactions from two days in September 2013, of which 492 (0.17%) are fraud:
 
-The notebook compares a logistic regression baseline with a Random Forest, using SMOTE (Synthetic Minority Over-sampling Technique) to balance the training data. Recall and the F2-score are used for evaluation, because a missed fraud usually costs more than a false alarm.
+1. Can a Random Forest rank fraud better than logistic regression on later transactions?
+2. Can SMOTE applied to the training data only improve the fraction of fraud caught at the same review workload?
 
-## Results (test set, 56,962 transactions)
+The data is split by time, not at random. Transactions before 18 hours are used for training, 18 to 24 hours for validation, and after 24 hours for the holdout test. The scaler is fitted on the training block only. Each model's score cutoff is set on the validation block so that alerts stay at or below 0.5% of transactions, then frozen for the holdout.
 
-| Model | Accuracy | Precision | Recall | F2 |
-|---|---|---|---|---|
-| Logistic regression (C=10, L2) | 0.9994 | 0.875 | 0.667 | 0.700 |
-| Random Forest | 0.9996 | 0.908 | 0.821 | 0.837 |
-| SMOTE + Random Forest | 0.9996 | 0.867 | 0.857 | 0.859 |
+The experiment measures retrospective discrimination and review workload on one later period. It does not measure real-world savings.
 
-The results come from the saved outputs of the original run. The top four features by importance are V17, V14, V12, and V10 (see the known issues on the feature labels).
+## Results (holdout, 139,490 transactions, 201 fraud)
+
+Cutoffs were chosen on validation so that alerts stayed at or below 0.5%. The holdout alert rates are higher than that target.
+
+| Model | Average precision | Precision | Recall | F2 | Alert rate |
+|---|---|---|---|---|---|
+| Logistic regression | 0.559 | 0.123 | 0.756 | 0.373 | 0.88% |
+| Random Forest | 0.748 | 0.036 | 0.886 | 0.154 | 3.56% |
+| Random Forest + SMOTE | 0.775 | 0.078 | 0.876 | 0.287 | 1.62% |
+
+On the holdout, the SMOTE forest had the highest average precision. Plain Random Forest caught 178 of 201 frauds with 4,785 false alerts. The SMOTE forest caught 176 with 2,087 false alerts. On validation, the two forests caught the same 42 of 55 frauds, so SMOTE did not improve recall at the tested cap.
 
 ## Contents
 
-- `optimizing_fraud_detection_card_transactions.ipynb`: the analysis notebook (data profile, EDA, feature engineering, SMOTE, Random Forest and logistic regression, precision-recall analysis).
-- `deliverables/white_paper.docx`: the Milestone 3 white paper.
+- `optimizing_fraud_detection_card_transactions.ipynb`: the analysis notebook. It runs the data checks, split, models, and figures, and writes results to `fraud_results/`.
+- `deliverables/white_paper.docx`: the Milestone 3 white paper. It was written before the current notebook version, so its figures may not match the results above.
 
 ## Data
 
-The data is the Kaggle credit card fraud dataset (`creditcard.csv`, about 150 MB). It is **not included in this repository** because it is larger than GitHub's 100 MB file limit. To run the notebook, download `creditcard.csv` from Kaggle (https://www.kaggle.com/code/kabure/credit-card-fraud-prediction-rf-smote/input) and place it in this folder. The notebook reads the file from the working directory.
+The data is the Kaggle credit card fraud dataset (`creditcard.csv`, about 150 MB, from Machine Learning Group–ULB). It is **not included in this repository** because it is larger than GitHub's 100 MB file limit. Download it from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud and place it in this folder. The notebook checks the file's SHA-256 checksum (`76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89`) and records it in the summary.
 
 ## Requirements
 
-`pandas`, `numpy`, `seaborn`, `matplotlib`, `scikit-learn`, `imbalanced-learn`.
+The notebook records the versions it was run with: Python 3.8.20, NumPy 1.24.4, pandas 2.0.3, scikit-learn 1.3.2, and matplotlib 3.7.3. Newer scikit-learn versions may change some outputs.
 
 ## Known limitations
 
-- **Feature selection used the full dataset.** The columns were chosen after looking at fraud and normal distributions across all transactions, before the train/test split. The test set therefore influenced which features were kept, and the test scores are optimistic.
-- **Feature importance labels are wrong for the first two features.** The label list in the importance cell uses `Time_min` and `Time_hours` in the positions where the model columns are `Time_hour` and `Time_min`. The importance bars for those two features are mislabeled, and `Time_hours` does not match any column name.
-- **Tuned hyperparameters were not used.** The grid search found `n_estimators=5`, but the final Random Forest uses `n_estimators=10`. The logistic regression grid search found `C=1`, but the final model uses `C=10`.
-- **Markdown text does not match the results.** The note that says "70% of accuracy is not too bad" refers to the F2-score (0.70). Logistic regression accuracy is 99.94%.
-- **The "top four features account for 75%" claim is not in the saved outputs.** It is based on the bar chart, and the importance values are not printed.
-- **The ROC curve question is unresolved.** A markdown cell asks how to fix an overfitted-looking ROC curve. The notebook does not answer it.
-- **The conclusion overstates readiness.** The notebook says the model is "ready for deployment." It was evaluated on one split without a separate validation set, and the threshold was not chosen on held-out data.
-
-## Source
-
-Dataset: Kaggle, credit card transactions made by European cardholders in September 2013 (anonymized principal components V1–V28, plus Time and Amount).
+- **Interpretation text does not match the outputs.** The interpretation section gives logistic regression holdout AP as 0.566 and F2 as 0.311. The saved outputs show 0.559 and 0.373. The conclusion about which model is best is unchanged, but the numbers in the text should be corrected.
+- **Two days of data.** The data covers one short period from 2013. The results do not show current model performance, fairness, or economic benefit.
+- **Scores are not calibrated.** The score cutoffs are chosen for an alert budget, not for probability estimates.
+- **The white paper may not match the notebook.** It was written before the current notebook version.
+- **Duplicates were removed without transaction IDs.** Exact duplicate rows (1,081, including 19 fraud rows) were dropped. Some could be separate real transactions.
