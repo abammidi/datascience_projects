@@ -9,10 +9,10 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 03 | [Labor Force Suitability - Predictive Analysis](03-labor-force-suitability-predictive-analysis/README.md) | Completed (known limitations listed) |
 | 04 | [Obesity Risk Prediction System](04-obesity-risk-prediction/README.md) | Completed (leakage fixed; see README) |
 | 05 | [US Child Care Affordability Crisis Analysis](05-us-child-care-affordability-analysis/README.md) | Completed (known limitations listed) |
-| 06 | [Diet Recommendation System](06-diet-recommendation-system/README.md) | In progress |
+| 06 | [Website Data Cleaning: Government of Canada Prompt Payment Data](06-website-data-cleaning-prompt-payment/README.md) | Completed (run notebook to regenerate outputs) |
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | Completed (known issues listed) |
 | 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
-| 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
+| 09 | [MNIST Digit Classifier (PyTorch CNN)](09-mnist-cnn-pytorch/README.md) | Completed (validation split recommended) |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
 
 See [AUDIT.md](AUDIT.md) for the repository audit log.
