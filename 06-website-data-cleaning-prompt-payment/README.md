@@ -31,3 +31,11 @@ This project pulls the Government of Canada prompt-payment (payment delay) datas
 - The dataset was not re-downloaded for this revision because the source was unreachable from the environment where it was prepared. Row counts from the first submission (31,816 rows) have not been reconfirmed.
 - Negative delays and extreme delays are flagged for review. They are not corrected or removed.
 - The first submission scraped Airbnb HTML. That section was removed because Airbnb's terms restrict automated access.
+
+<!-- CONTACT -->
+## Contact
+
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi

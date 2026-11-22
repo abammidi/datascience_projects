@@ -32,3 +32,11 @@ Test accuracy was printed after every epoch for monitoring. The notebook does no
 - No validation split (see above).
 - The model was trained for three epochs. Longer training or a learning-rate schedule may improve accuracy; the notebook's summary lists these as options.
 - Edits since the original run changed only a code comment and a markdown cell. The code and the saved outputs are unchanged, but the notebook was not re-run in this environment, which lacks PyTorch.
+
+<!-- CONTACT -->
+## Contact
+
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi

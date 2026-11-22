@@ -45,3 +45,11 @@ The notebook records the versions it was run with: Python 3.8.20, NumPy 1.24.4, 
 - **Scores are not calibrated.** The score cutoffs are chosen for an alert budget, not for probability estimates.
 - **The white paper may not match the notebook.** It was written before the current notebook version.
 - **Duplicates were removed without transaction IDs.** Exact duplicate rows (1,081, including 19 fraud rows) were dropped. Some could be separate real transactions.
+
+<!-- CONTACT -->
+## Contact
+
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi
