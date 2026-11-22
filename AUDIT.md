@@ -23,6 +23,8 @@ Audit of this repository for the Milestone 1 revision.
 | `Obesity Risk Prediction System` | `04-obesity-risk-prediction` |
 | `US Child Care Affordability Crisis Analysis` | `05-us-child-care-affordability-analysis` |
 | `Diet Recommendation System` | `06-diet-recommendation-system` |
+| `Diet Recommendation System` (removed; no code or data existed) | replaced by `06-website-data-cleaning-prompt-payment` |
+| `Placeholder Project 1` (slot 09) | replaced by `09-mnist-cnn-pytorch` |
 | `TSA Precheck and Operation System Optimization` | `07-tsa-precheck-operations-optimization` |
 | `MLB Attendance Optimization ` | `08-mlb-attendance-optimization` |
 
@@ -31,5 +33,10 @@ Audit of this repository for the Milestone 1 revision.
 - Project 03 code, final summary, and presentation were added. The ATUS input file is not included (see the project README).
 - Project 06 needs code and data added.
 - Project 08 is a single-team (Dodgers, 2022) analysis. The original README described a full MLB season; it was rewritten to match the data.
+- Project 08 needs code and data added.
+
+- Project 04 (obesity) and Project 08 (MLB attendance) have only a README on `main`. Their code is on draft PR branches and is not merged yet.
 - Project 05 analysis, paper, and CSVs were added. The original Excel workbook is not included (see the project README).
+- Project 06 (website data cleaning) notebook has no saved outputs. Run it once where the source URL is reachable.
+- Project 09 (MNIST CNN) notebook has no validation split, and it was not re-run here because PyTorch is not installed. See its evaluation note.
 - The Netflix notebook's header and date range need to be checked against the data before this project is presented.
