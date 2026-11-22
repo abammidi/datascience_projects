@@ -11,7 +11,7 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 05 | [US Child Care Affordability Crisis Analysis](05-us-child-care-affordability-analysis/README.md) | Completed (known limitations listed) |
 | 06 | [Diet Recommendation System](06-diet-recommendation-system/README.md) | In progress |
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | Completed (known issues listed) |
-| 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
+| 08 | [Los Angeles Dodgers Attendance Analysis (2022)](08-mlb-attendance-optimization/README.md) | Completed (single team, see README) |
 | 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
 
