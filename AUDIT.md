@@ -36,3 +36,5 @@ Audit of this repository for the Milestone 1 revision.
 - Project 06 (website data cleaning) notebook has no saved outputs. Run it once where the source URL is reachable.
 - Project 09 (MNIST CNN) notebook has no validation split, and it was not re-run here because PyTorch is not installed. See its evaluation note.
 - The Netflix notebook's header and date range need to be checked against the data before this project is presented.
+- Project 10 (card fraud detection) data file `creditcard.csv` is not included (about 150 MB, over GitHub's 100 MB limit). Download it from Kaggle as described in the project README.
+- Project 10 notebook has known issues listed in its README (feature labels, hyperparameters not used, markdown text, conclusion). They have not been fixed yet.
