@@ -11,8 +11,8 @@ The deliverables are an executive presentation, a public infographic, a Python d
 ## Contents
 
 - `childcare_affordability_analysis.ipynb`: the analysis notebook. It produces the trend chart, the 2018 state comparison, an Illinois profile, and an optional interactive Plotly view.
-- `Anil_Bammidi_DSC640_Childcare_Trend_Metrics.csv`: median weekly price by year and age group (2008–2018).
-- `Anil_Bammidi_DSC640_Childcare_State_Metrics.csv`: 2018 state-level prices, income, county counts, annualized infant cost, and affordability burden.
+- `data/Anil_Bammidi_DSC640_Childcare_Trend_Metrics.csv`: median weekly price by year and age group (2008–2018).
+- `data/Anil_Bammidi_DSC640_Childcare_State_Metrics.csv`: 2018 state-level prices, income, county counts, annualized infant cost, and affordability burden.
 - `deliverables/final_paper.pdf`: the Milestone 5 paper, which includes the presentation, infographic, and dashboard views.
 
 ## Method
@@ -31,7 +31,7 @@ The deliverables are an executive presentation, a public infographic, a Python d
 
 ## Data
 
-The notebook first tries to read the original Excel workbook (`nationaldatabaseofchildcareprices(1).xlsx`). That workbook is not included in this repository, so the notebook falls back to the two processed CSV files, which are included. To use the workbook, place it in this folder and run the notebook again.
+The notebook first tries to read the original Excel workbook (`data/nationaldatabaseofchildcareprices(1).xlsx`). That workbook is not included in this repository, so the notebook falls back to the two processed CSV files, which are included. To use the workbook, place it in this folder and run the notebook again.
 
 ## Known limitations
 

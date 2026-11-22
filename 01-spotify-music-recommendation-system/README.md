@@ -12,7 +12,7 @@ This project evaluates two recommendation methods on Spotify track metadata: a p
 
 ## Data
 
-The Spotify Tracks dataset from Kaggle (`Spotify_dataset.csv`, about 114,000 rows). The notebook removes duplicate track IDs and records without a track name or artist, leaving 89,740 unique tracks.
+The Spotify Tracks dataset from Kaggle (`data/Spotify_dataset.csv`, about 114,000 rows). The notebook removes duplicate track IDs and records without a track name or artist, leaving 89,740 unique tracks.
 
 ## Methods
 
@@ -42,8 +42,8 @@ The Spotify Tracks dataset from Kaggle (`Spotify_dataset.csv`, about 114,000 row
 
 ## Files
 
-- `music_recommendation_popularity_knn.ipynb`: the executed notebook. It reads `Spotify_dataset.csv` from this folder.
-- `Spotify_dataset.csv`: the track metadata used by the notebook.
+- `music_recommendation_popularity_knn.ipynb`: the executed notebook. It reads `data/Spotify_dataset.csv`, so run it from the project folder.
+- `data/Spotify_dataset.csv`: the track metadata used by the notebook.
 - `white_paper.docx`: the final white paper.
 - `presentation.pptx`: the final presentation.
 

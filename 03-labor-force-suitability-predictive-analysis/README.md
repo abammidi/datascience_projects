@@ -16,7 +16,7 @@ The original framing was a recruiting use case: identify groups of respondents w
 
 ## Data
 
-The notebook reads `2019 BLS.csv`, the ATUS 2019 Respondent File, which is not included in this repository. Download it from the BLS American Time Use Survey page (https://www.bls.gov/tus/) and place it in this folder before running the notebook.
+The notebook reads `data/2019 BLS.csv`, the ATUS 2019 Respondent File, which is not included in this repository. Download it from the BLS American Time Use Survey page (https://www.bls.gov/tus/) and place it in this folder before running the notebook.
 
 ## Method
 

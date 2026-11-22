@@ -35,4 +35,4 @@ Audit of this repository for the Milestone 1 revision.
 - Project 05 (child care): the original Excel workbook is not included. See the project README.
 - Project 06 (website data cleaning): the notebook has no saved outputs. Run it once where the source URL is reachable.
 - Project 09 (MNIST CNN): no validation split, and the notebook was not re-run because PyTorch is not installed. See its evaluation note.
-- Project 10 (card fraud detection): `creditcard.csv` is not included (about 150 MB, over GitHub's 100 MB limit). Download it from Kaggle as described in the project README. The notebook's known issues are listed in its README and have not been fixed.
+- Project 10 (card fraud detection): `data/creditcard.csv` is not included (about 150 MB, over GitHub's 100 MB limit). Download it from Kaggle as described in the project README. The notebook's known issues are listed in its README and have not been fixed.

@@ -25,7 +25,7 @@ These figures are from a run of the revised notebook in this repository. Reprodu
 ## Contents
 
 - `obesity_risk_prediction.ipynb`: revised notebook (data preparation, leakage removal, three models, cross-validation, feature importance). Outputs were cleared when the notebook was revised; run it to regenerate them.
-- `ObesityDataSet_raw_and_data_sinthetic.csv`: the dataset used by the notebook.
+- `data/ObesityDataSet_raw_and_data_sinthetic.csv`: the dataset used by the notebook.
 
 ## Data
 
