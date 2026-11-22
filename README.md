@@ -12,8 +12,6 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 06 | [Website Data Cleaning: Government of Canada Prompt Payment Data](06-website-data-cleaning-prompt-payment/README.md) | Completed (run notebook to regenerate outputs) |
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | Completed (known issues listed) |
 | 08 | [Los Angeles Dodgers Attendance Analysis (2022)](08-mlb-attendance-optimization/README.md) | Completed (single team, see README) |
-| 09 | [Placeholder Project 1](09-placeholder-project-1/README.md) | Not started |
-| 08 | [MLB Attendance Optimization](08-mlb-attendance-optimization/README.md) | In progress |
 | 09 | [MNIST Digit Classifier (PyTorch CNN)](09-mnist-cnn-pytorch/README.md) | Completed (validation split recommended) |
 | 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
 
