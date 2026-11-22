@@ -19,7 +19,7 @@ Cutoffs were chosen on validation so that alerts stayed at or below 0.5%. The ho
 
 | Model | Average precision | Precision | Recall | F2 | Alert rate |
 |---|---|---|---|---|---|
-| Logistic regression | 0.559 | 0.123 | 0.756 | 0.373 | 0.88% |
+| Logistic regression | 0.566 | 0.123 | 0.756 | 0.311 | 0.88% |
 | Random Forest | 0.748 | 0.036 | 0.886 | 0.154 | 3.56% |
 | Random Forest + SMOTE | 0.775 | 0.078 | 0.876 | 0.287 | 1.62% |
 
