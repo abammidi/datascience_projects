@@ -29,8 +29,8 @@ Audit of this repository for the Milestone 1 revision.
 ## Open items
 
 - Project 03 code, final summary, and presentation were added. The ATUS input file is not included (see the project README).
-- Projects 04, 06, 07, and 08 need code and data added.
-- Project 05 is a draft and needs its analysis added.
+- Project 06 needs code and data added.
+- Project 08 is a single-team (Dodgers, 2022) analysis. The original README described a full MLB season; it was rewritten to match the data.
 - Projects 03, 04, 06, 07, and 08 need code and data added.
 - Project 05 analysis, paper, and CSVs were added. The original Excel workbook is not included (see the project README).
 - The Netflix notebook's header and date range need to be checked against the data before this project is presented.
