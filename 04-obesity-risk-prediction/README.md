@@ -37,3 +37,11 @@ The dataset is the UCI Machine Learning Repository's "Estimation of obesity leve
 - **Self-reported inputs.** Eating and activity habits are self-reported and may not match actual behavior.
 - **Not a clinical tool.** Predicting a BMI-based category from lifestyle answers does not show that an intervention would change outcomes.
 - **Final report.** The earlier written report reported the leaky 98.3% result and is not included. A revised report is needed before submission.
+
+<!-- CONTACT -->
+## Contact
+
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi

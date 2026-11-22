@@ -29,3 +29,11 @@ Test bobblehead promotions on weekday games with a controlled comparison before 
 - **Weak model.** The regression explains about 10% of attendance variation, so its coefficients are directional only. Bobbleheads are not the largest coefficient in the model.
 - **Confounding.** Promotions were not assigned at random. Promotions may have been scheduled for games that were expected to draw well.
 - **Missing factors.** Ticket prices, marketing spend, team performance, and passenger-independent factors such as weather beyond temperature and sky conditions are not in the data.
+
+<!-- CONTACT -->
+## Contact
+
+Anil Bammidi
+Email: anil.bammidi@yahoo.com
+LinkedIn: https://www.linkedin.com/in/anil-bammidi-43938357/
+GitHub: https://github.com/abammidi
