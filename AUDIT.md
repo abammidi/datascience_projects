@@ -31,11 +31,7 @@ Audit of this repository for the Milestone 1 revision.
 ## Open items
 
 - Project 03 code, final summary, and presentation were added. The ATUS input file is not included (see the project README).
-- Project 06 needs code and data added.
 - Project 08 is a single-team (Dodgers, 2022) analysis. The original README described a full MLB season; it was rewritten to match the data.
-- Project 08 needs code and data added.
-
-- Project 04 (obesity) and Project 08 (MLB attendance) have only a README on `main`. Their code is on draft PR branches and is not merged yet.
 - Project 05 analysis, paper, and CSVs were added. The original Excel workbook is not included (see the project README).
 - Project 06 (website data cleaning) notebook has no saved outputs. Run it once where the source URL is reachable.
 - Project 09 (MNIST CNN) notebook has no validation split, and it was not re-run here because PyTorch is not installed. See its evaluation note.
