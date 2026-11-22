@@ -13,6 +13,6 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 07 | [TSA Precheck and Operations Optimization](07-tsa-precheck-operations-optimization/README.md) | Completed (known issues listed) |
 | 08 | [Los Angeles Dodgers Attendance Analysis (2022)](08-mlb-attendance-optimization/README.md) | Completed (single team, see README) |
 | 09 | [MNIST Digit Classifier (PyTorch CNN)](09-mnist-cnn-pytorch/README.md) | Completed (validation split recommended) |
-| 10 | [Placeholder Project 2](10-placeholder-project-2/README.md) | Not started |
+| 10 | [Optimizing Fraud Detection in Card Transactions](10-optimizing-fraud-detection-card-transactions/README.md) | Completed (known issues listed; data not included) |
 
 See [AUDIT.md](AUDIT.md) for the repository audit log.
