@@ -9,7 +9,7 @@ This project uses the 2022 home-game data for the Los Angeles Dodgers (81 games)
 ## Contents
 
 - `dodgers_attendance_analysis.ipynb`: the analysis notebook (descriptive summaries, promotion comparison, multiple linear regression). Outputs from the original run are included.
-- `dodgers-2022.csv`: the game-level data (81 rows, 12 columns) provided with the assignment.
+- `data/dodgers-2022.csv`: the game-level data (81 rows, 12 columns) provided with the assignment.
 
 ## Results
 

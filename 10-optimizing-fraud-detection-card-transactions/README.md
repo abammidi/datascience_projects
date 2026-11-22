@@ -32,7 +32,7 @@ On the holdout, the SMOTE forest had the highest average precision. Plain Random
 
 ## Data
 
-The data is the Kaggle credit card fraud dataset (`creditcard.csv`, about 150 MB, from Machine Learning Group–ULB). It is **not included in this repository** because it is larger than GitHub's 100 MB file limit. Download it from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud and place it in this folder. The notebook checks the file's SHA-256 checksum (`76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89`) and records it in the summary.
+The data is the Kaggle credit card fraud dataset (`data/creditcard.csv`, about 150 MB, from Machine Learning Group–ULB). It is **not included in this repository** because it is larger than GitHub's 100 MB file limit. Download it from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud and place it in this folder. The notebook checks the file's SHA-256 checksum (`76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89`) and records it in the summary.
 
 ## Requirements
 

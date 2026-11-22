@@ -15,4 +15,19 @@ Portfolio projects from the Data Science program. Each folder contains its own R
 | 09 | [MNIST Digit Classifier (PyTorch CNN)](09-mnist-cnn-pytorch/README.md) | Completed |
 | 10 | [Optimizing Fraud Detection in Card Transactions](10-optimizing-fraud-detection-card-transactions/README.md) | Completed |
 
+## Project layout
+
+Every project follows the same layout:
+
+```
+NN-project-name/
+  README.md          overview, data source, how to run, status
+  <notebook or code>  the analysis
+  data/              input files the code reads
+  screenshots/       code-screenshot.png, the core code shown in the portfolio
+  deliverables/      final paper, slides, or summary, when the project has one
+```
+
+Notebooks read `data/` with paths relative to the project folder, so run each notebook from its own folder. Files too large for the repository (or licensed separately) are listed in each project's README.
+
 See [AUDIT.md](AUDIT.md) for the repository audit log.

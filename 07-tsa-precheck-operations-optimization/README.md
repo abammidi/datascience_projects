@@ -11,21 +11,21 @@ The deliverables are a six-visual executive briefing (PowerPoint and PDF) and a 
 ## Contents
 
 - `code/tsa/analysis.py`: the analysis and visualization pipeline. It checks that the three complaint files reconcile to the same total, joins airport codes to the IATA/ICAO lookup, and writes six charts plus a summary file.
-- `upload/`: the airport-level complaint file and the IATA/ICAO lookup.
+- `data/`: the airport-level complaint file and the IATA/ICAO lookup.
 - `output/tsa_assignment/charts/`: the six charts produced by the script.
 - `output/tsa_assignment/tsa_analysis_summary.json`: summary metrics from the last run.
 - `deliverables/final_presentation.pptx` and `deliverables/final_paper.pdf`: the briefing and the paper.
 
 ## Data
 
-The script expects four input files in `upload/`:
+The script expects four input files in `data/`:
 
 | File | In this repo | Where to get it |
 |---|---|---|
-| `complaints-by-airport.csv` | Yes | Provided with the assignment |
-| `complaints-by-category.csv` | No (17 MB) | Provided with the assignment; place it in `upload/` |
-| `complaints-by-subcategory.csv` | No (77 MB) | Provided with the assignment; place it in `upload/` |
-| `iata-icao.csv` | Yes | Licensed CC BY-SA 4.0; attribution is required |
+| `data/complaints-by-airport.csv` | Yes | Provided with the assignment |
+| `data/complaints-by-category.csv` | No (17 MB) | Provided with the assignment; place it in `data/` |
+| `data/complaints-by-subcategory.csv` | No (77 MB) | Provided with the assignment; place it in `data/` |
+| `data/iata-icao.csv` | Yes | Licensed CC BY-SA 4.0; attribution is required |
 
 The two large files are left out to keep the repository small. The script will not run without them.
 

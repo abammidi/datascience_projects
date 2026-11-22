@@ -35,7 +35,7 @@ import seaborn as sns
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT_DIR = ROOT / "upload"
+INPUT_DIR = ROOT / "data"
 OUTPUT_DIR = ROOT / "output" / "tsa_assignment"
 CHART_DIR = OUTPUT_DIR / "charts"
 
