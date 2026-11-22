@@ -30,11 +30,9 @@ Audit of this repository for the Milestone 1 revision.
 
 ## Open items
 
-- Project 03 code, final summary, and presentation were added. The ATUS input file is not included (see the project README).
-- Project 08 is a single-team (Dodgers, 2022) analysis. The original README described a full MLB season; it was rewritten to match the data.
-- Project 05 analysis, paper, and CSVs were added. The original Excel workbook is not included (see the project README).
-- Project 06 (website data cleaning) notebook has no saved outputs. Run it once where the source URL is reachable.
-- Project 09 (MNIST CNN) notebook has no validation split, and it was not re-run here because PyTorch is not installed. See its evaluation note.
-- The Netflix notebook's header and date range need to be checked against the data before this project is presented.
-- Project 10 (card fraud detection) data file `creditcard.csv` is not included (about 150 MB, over GitHub's 100 MB limit). Download it from Kaggle as described in the project README.
-- Project 10 notebook has known issues listed in its README (feature labels, hyperparameters not used, markdown text, conclusion). They have not been fixed yet.
+- Project 02 (Netflix): check the notebook's header and date range against the data before presenting.
+- Project 03 (labor force): the ATUS input file is not included. See the project README.
+- Project 05 (child care): the original Excel workbook is not included. See the project README.
+- Project 06 (website data cleaning): the notebook has no saved outputs. Run it once where the source URL is reachable.
+- Project 09 (MNIST CNN): no validation split, and the notebook was not re-run because PyTorch is not installed. See its evaluation note.
+- Project 10 (card fraud detection): `creditcard.csv` is not included (about 150 MB, over GitHub's 100 MB limit). Download it from Kaggle as described in the project README. The notebook's known issues are listed in its README and have not been fixed.
